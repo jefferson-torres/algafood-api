@@ -17,6 +17,6 @@ public class Restaurante {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Include
 	private Long id;
-	
+
 	private String nome;
 }
